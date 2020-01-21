@@ -42,8 +42,10 @@ nav ol li a:hover {
 
 #logo img {
     width: 50px;
-    vertical-align: middle;
+    vertical-align: -12px;
     margin-right: 10px;
+    background: #9F0403;
+    border-radius: 50%;
     padding: 10px;
 }
 
@@ -52,6 +54,18 @@ nav ol li a:hover {
     font-size: 30px;
     font-weight: 900;      
 }
+
+#logo a {
+  color: #252525;
+  text-decoration: none;  
+  font-weight: 900;
+}
+
+#logo a:hover {
+  color: #9f0403;
+}
+
+    
 
 /* 橫幅 */
 #banner {
@@ -72,6 +86,8 @@ nav ol li a:hover {
 
 #banner-box {
     overflow: hidden;
+    height: 100vh;
+    margin-top: -100px;
 }
 
 .content {
